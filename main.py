@@ -1,4 +1,3 @@
-from re import A
 import Retos31_40 as rs3
 import Retos41_50 as rs4
 
@@ -12,6 +11,10 @@ def SelectChallenge():
             rs4.Reto_41()
         elif option == 42:
             rs4.Reto_42()
+        elif option == 39:
+            rs3.Reto_39()
+        elif option == 38:
+            rs3.Reto_38()
         else:
             print("Opción no disponible")
     except ValueError:
