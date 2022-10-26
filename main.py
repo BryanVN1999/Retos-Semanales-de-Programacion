@@ -15,6 +15,8 @@ def SelectChallenge():
             rs3.Reto_39()
         elif option == 38:
             rs3.Reto_38()
+        elif option == 37:
+            rs3.Reto_37()
         else:
             print("Opción no disponible")
     except ValueError:
